@@ -29,9 +29,9 @@ function moveImage() {
 // Generate three random 0-255 values and use those for RGB
 function rndC(element)
 {
-  let r = Math.floor(Math.random() * 255);
-  let g = Math.floor(Math.random() * 255);
-  let b = Math.floor(Math.random() * 255);
+  let r = Math.floor(Math.random() * 256);
+  let g = Math.floor(Math.random() * 256);
+  let b = Math.floor(Math.random() * 256);
 
   element.style.setProperty('background-color', `rgb(${r},${g},${b})`);
 }
